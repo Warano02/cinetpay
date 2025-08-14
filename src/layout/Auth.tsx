@@ -35,6 +35,7 @@ function Auth() {
       </div>
       <div className="h-full w-auto  p-2 flex flex-col items-center ">
         <img src={assets.logo} className="w-1/2 mt-8" />
+        
         <Outlet />
       </div>
     </div>

@@ -12,3 +12,8 @@
   width: 60px;
   height: 60%;
 }
+.btn-primary {
+    color: #fff;
+    background-image: linear-gradient(45deg, #f92c2c, #f15b25) !important;
+    box-shadow: none;
+}
