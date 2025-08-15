@@ -8,12 +8,11 @@ export const authRoutes = {
     children: [
         {
             index: true,
-            element: <Login />,
+            element: <Login/>,
         },
         {
             path: "signup",
-            element: <Signup />,
-        }
-      
+            element: <Signup />
+        },
     ],
 };
