@@ -4,9 +4,9 @@
 .autl {
   background-image: url("./assets/bg/login-cover.jpg");
   background-size: cover;
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 200;
+  font-weight: 600;
   font-style: normal;
+  font-family: "Lufga", "Times New Roman", serif;
 }
 .autl .me-2 {
   width: 60px;
@@ -16,4 +16,64 @@
     color: #fff;
     background-image: linear-gradient(45deg, #f92c2c, #f15b25) !important;
     box-shadow: none;
+}
+.btn-primari {
+    color: #f92c2c;
+    background-image: linear-gradient(45deg, #f0afaf) !important;
+    box-shadow: none;
+}
+.font {
+font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.text-white {
+    --bs-text-opacity: 1;
+    color: #fff !important;
+}
+.p-4 {
+    padding: 1.5rem !important;
+}
+.m-0 {
+    margin: 0 !important;
+}
+h2, .h2 {
+    font-size: calc(1.325rem + 0.9vw);
+    font-family: "Lufga", "Times New Roman", serif;
+    font-weight: 600;
+    line-height: 1.1;
+}
+hr {
+    margin: 1rem 0;
+    color: #f0f0f0;
+    border: 0;
+    border-top: 1px solid;
+    opacity: 1;
+}
+
+.light-style .authentication-wrapper .authentication-bg {
+    background-color: #fff;
+}
+.p-4 {
+    padding: 1.5rem !important;
+}
+.align-items-center {
+    align-items: center !important;
+}
+.d-flex {
+    display: flex !important
+;
+}
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
 }
