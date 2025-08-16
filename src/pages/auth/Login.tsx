@@ -53,9 +53,9 @@ function Login() {
           </div>
           <div className="w-full flex justify-center">
             <p className="text-center">
-              <a href="/auth/signup" className="text-red-500">
-                <span>Mot de passe oublié ?</span>
-              </a>
+              <Link to="/auth/signup" className="text-red-500 mt-2">
+              Mot de passe oublié ?
+              </Link>
             </p>
           </div>
           <div className="w-full flex justify-center">
