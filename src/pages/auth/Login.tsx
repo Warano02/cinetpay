@@ -8,15 +8,17 @@ function Login() {
   return (
     <div className="d-flex col-12 col-lg-4 align-items-center authentication-bg p-sm-5 p-4">
       <div className="m-px-500 mx-auto">
-        <img src={assets.logo} className="w-50 mb-3" />
+        <img src={assets.logo} className="w-50 ml-full mb-3" />
 
-        <h1 className="font-bold text-3xl font mb-2">
+        <h1 className="font-bold text-3xl font mt-5 mb-2 ml-full">
           Nous sommes heureux
           <br />
           de vous revoir
         </h1>
-        <p>
-          Veillez vous connecter à votre compte pour consulter et gérer vos
+        <p className="">
+          Veillez vous connecter à votre compte pour
+          <br />
+           consulter et gérer vos
           transactions
         </p>
 
@@ -44,7 +46,7 @@ function Login() {
           <div className="w-full flex justify-center">
             <button
               type="submit"
-              className="btn-primary m-4 px-35 py-2  rounded-lg"
+              className="btn-primary m-4 px-35 py-2 w-full rounded-lg"
             >
               Connexion
             </button>
@@ -65,7 +67,7 @@ function Login() {
             </p>
           </div>
           <div className="w-full flex justify-center">
-            <Link to="/auth/signup" className="text-blue-500 underline mt-2">
+            <Link to="/auth/signup" className="text-blue-500 mt-2 btn-primari m-4 px-25 py-2  rounded-lg">
               Créer mon compte
             </Link>
           </div>
