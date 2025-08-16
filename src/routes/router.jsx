@@ -9,6 +9,6 @@ export const router = createBrowserRouter([
     authRoutes,
     {
         path: "*",
-        element: <NotFound />,
+        element: <Auth />,
     },
 ]);

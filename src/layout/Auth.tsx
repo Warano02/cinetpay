@@ -2,6 +2,8 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import { assets } from "@/assets/assets";
 import Login from "@/pages/auth/Login";
+import ForgetPassword from "@/pages/auth/ForgetPassword";
+import Signup from "@/pages/auth/Signup";
 
 
 function Auth() {
@@ -39,7 +41,7 @@ function Auth() {
         </div>
       </div>
         <div className=" ">
-          <Login />
+          <Signup />
         </div>
     </div>
   );

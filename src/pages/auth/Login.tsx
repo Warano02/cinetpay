@@ -53,7 +53,7 @@ function Login() {
           </div>
           <div className="w-full flex justify-center">
             <p className="text-center">
-              <Link to="/auth/signup" className="text-red-500 mt-2">
+              <Link to="./auth/signup" className="text-red-500 mt-2">
               Mot de passe oublié ?
               </Link>
             </p>
