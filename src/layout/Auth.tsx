@@ -10,7 +10,7 @@ function Auth() {
   return (
     <div className="w-[100vw] h-[100vh] relative flex">
       <div className=" w-[68%] h-full flex items-end justify-items-end autl p-8 sm-hidden">
-        <div className="flex items-center pb-3">
+        <div className="flex fixe items-center pb-3">
           <h2 className="text-white  m-0 p-4 font-bold mb-2">
             Rejoignez +25 000 entreprise
             <br />
@@ -41,7 +41,7 @@ function Auth() {
         </div>
       </div>
         <div className=" ">
-          <Signup />
+          <Login />
         </div>
     </div>
   );
