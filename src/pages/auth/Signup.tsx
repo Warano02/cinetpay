@@ -3,6 +3,10 @@ import React, { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+/**
+ *  Style a revoir boss
+ * 
+ */
 function Signup() {
   const [view, setView] = useState(false);
   return (
@@ -212,7 +216,7 @@ function Signup() {
                     </div>
                     <div className="w-full flex justify-center">
                       <Link
-                        to="/auth/signup"
+                        to="/auth"
                         className="text-blue-500 mt-2 btn-primari m-4 px-25 py-2  rounded-lg"
                       >
                         Se connecter

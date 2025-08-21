@@ -1,8 +1,7 @@
 import { assets } from "@/assets/assets";
-import React from "react";
 import { Link } from "react-router-dom";
 
-function ForgetPassword() {
+function ForgotPassword() {
   return (
     <div className="d-flex col-12 col-lg-4 align-items-center authentication-bg p-sm-5 p-4 mt-25">
       <div className="m-px-500 mx-auto">
@@ -39,7 +38,7 @@ function ForgetPassword() {
         </div>
         <div className="w-full flex justify-center">
           <Link
-            to="/auth/signup"
+            to="/auth"
             className="text-blue-500 mt-2 btn-primari m-4 px-25 py-2  rounded-lg"
           >
             Se connecter
@@ -52,4 +51,4 @@ function ForgetPassword() {
   );
 }
 
-export default ForgetPassword;
+export default ForgotPassword;

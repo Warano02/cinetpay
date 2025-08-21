@@ -1,11 +1,9 @@
-import React from "react";
 import { Outlet } from "react-router-dom";
 import { assets } from "@/assets/assets";
-import Login from "@/pages/auth/Login";
-import ForgetPassword from "@/pages/auth/ForgetPassword";
-import Signup from "@/pages/auth/Signup";
-
-
+/**
+ *  Ici, c'etait pas propre d'importer directement Login pour le mettre car c'est un layout (voir https://dev.to/olenadrugalya/layout-component-and-why-we-use-it-in-react-d8b).
+ * 
+ */
 function Auth() {
   return (
     <div className="w-[100vw] h-[100vh] relative flex">
@@ -41,7 +39,7 @@ function Auth() {
         </div>
       </div>
         <div className=" ">
-          <Login />
+          <Outlet />
         </div>
     </div>
   );

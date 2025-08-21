@@ -1,8 +1,10 @@
 import { assets } from "@/assets/assets";
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
+/**
+ *  Mise a jours du lien pour le mot de passe oublier
+ *  */
 function Login() {
   const [view, setView] = useState(false);
   return (
@@ -18,8 +20,7 @@ function Login() {
         <p className="">
           Veillez vous connecter à votre compte pour
           <br />
-           consulter et gérer vos
-          transactions
+          consulter et gérer vos transactions
         </p>
 
         <form className="mt-5 ">
@@ -53,8 +54,8 @@ function Login() {
           </div>
           <div className="w-full flex justify-center">
             <p className="text-center">
-              <Link to="./auth/signup" className="text-red-500 mt-2">
-              Mot de passe oublié ?
+              <Link to="/auth/fotgot-password" className="text-red-500 mt-2">
+                Mot de passe oublié ?
               </Link>
             </p>
           </div>
@@ -67,7 +68,10 @@ function Login() {
             </p>
           </div>
           <div className="w-full flex justify-center">
-            <Link to="/auth/signup" className="text-blue-500 mt-2 btn-primari m-4 px-25 py-2  rounded-lg">
+            <Link
+              to="/auth/signup"
+              className="text-blue-500 mt-2 btn-primari m-4 px-25 py-2  rounded-lg"
+            >
               Créer mon compte
             </Link>
           </div>
